@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "my-first-schema": {
+      "aliases": ["mfs"],
+      "factory": "./my-first-schema",
+      "description": "my first schematic.",
+      "schema": "./my-first-schema/schema.json"
+    }
+  }
+}
